@@ -10,7 +10,7 @@
 ```
 $ git clone git@github.com:simonqian/sequirrel_custom.git
 $ cd sequirrel_custom
-$ cp * ~/Library/Rime
+$ rsync -avzu --progress --exclude="README.md" * ~/Library/Rime
 ```
 然后重新部署即可
 
