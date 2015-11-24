@@ -1,0 +1,54 @@
+#  default.custom.yaml
+patch:
+  menu/page_size: 5  #设置候选字数量，根据喜好调整。
+  schema_list:           #“输入选单”中激活的输入方案定义。
+    - schema: luna_pinyin_simp     # 朙月拼音 简化字模式
+    - schema: luna_pinyin_fluency  # 朙月拼音 语句流
+    # - schema: luna_pinyin          # 朙月拼音
+    # - schema: luna_pinyin_tw       # 朙月拼音 臺灣正體模式
+    # - schema: terra_pinyin         # 地球拼音 dì qiú pīn yīn
+    # - schema: bopomofo             # 注音
+    # - schema: bopomofo_tw          # 注音 臺灣正體模式
+    # - schema: jyutping             # 粵拼
+    # - schema: cangjie5             # 倉頡五代
+    # - schema: cangjie5_express     # 倉頡 快打模式
+    # - schema: quick5               # 速成
+    # - schema: wubi86               # 五笔86
+    # - schema: wubi_pinyin          # 五笔拼音混合輸入
+    # - schema: double_pinyin        # 自然碼雙拼
+    # - schema: double_pinyin_mspy   # 微軟雙拼
+    # - schema: double_pinyin_abc    # 智能ABC雙拼
+    # - schema: double_pinyin_flypy  # 小鶴雙拼
+    # - schema: wugniu        # 吳語上海話（新派）
+    # - schema: wugniu_lopha  # 吳語上海話（老派）
+    # - schema: sampheng      # 中古漢語三拼
+    # - schema: zyenpheng     # 中古漢語全拼
+    # - schema: ipa_xsampa    # X-SAMPA 國際音標
+    # - schema: emoji         # emoji表情
+
+#下面定义中英文切换的方式
+  ascii_composer/good_old_caps_lock:  true
+  ascii_composer/switch_key:
+    # noop: 忽略，commit_code: 直接上屏，inline: 还在行内，不上屏，clear: 字符被清除并且切换为英文状态
+    Caps_Lock: noop
+    Control_L: noop
+    Control_R: noop
+    Eisu_toggle: clear
+    Shift_L: inline_ascii
+    Shift_R: inline_ascii
+
+#下面定义“输入选单”的切换控制
+  switcher:
+    abbreviate_options: true
+    caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
+    fold_options: true
+    hotkeys:
+      - "Control+grave"       #默认方案
+      - "Control+Shift+grave"   #默认方案
+      - "Control+s"             #新增方案
+    option_list_separator: "／"   #以下都为默认custom.yaml文件的默认配置，copy过来就可以。
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
