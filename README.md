@@ -14,6 +14,13 @@ $ rsync -avzu --progress --exclude="README.md" * ~/Library/Rime
 ```
 然后重新部署即可
 
+## 卸载
+```
+say goodbye Squirrel && killall Squirrel
+sudo rm -rf "/Library/Input Methods/Squirrel.app"
+rm -rf ~/Library/Rime
+```
+
 ## 文件说明
 * default.custom.yaml，设置备选词数量，定义输入方案等
 * squirrel.custom.yaml，自定义皮肤
