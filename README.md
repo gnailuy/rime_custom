@@ -27,7 +27,7 @@ $ bash rime-install emoji:customize:schema=luna_pinyin
 ```
 $ git clone git@github.com:gnailuy/rime_custom.git
 $ cd rim_custom
-$ rsync -avzu --progress --exclude="README.md" * ~/Library/Rime
+$ rsync -avzu --progress --exclude="*.md" --exclude="*.sh" * ~/Library/Rime
 ```
 
 然后重新部署即可
