@@ -1,20 +1,22 @@
-# simonqian的Rime配置说明
+# Rime Custom Configuration
 
 ## 设置说明
+* 基于 [simonqian](https://github.com/simonqian) 的 [sequirrel_custom](https://github.com/simonqian/sequirrel_custom) 修改
 * 使用明月拼音简体
-* 使用了[五磅兔](mailto:zcunlin@foxmail.com)的“致青春／So Young”配色
-* 字体使用El Capitan 最新的字体「苹方」
 * 词库扩展
 
 ## 使用说明
+
 ```
-$ git clone git@github.com:simonqian/sequirrel_custom.git
-$ cd sequirrel_custom
+$ git clone git@github.com:gnailuy/rime_custom.git
+$ cd rim_custom
 $ rsync -avzu --progress --exclude="README.md" * ~/Library/Rime
 ```
+
 然后重新部署即可
 
-## 卸载
+## 卸载 Rime 输入法
+
 ```
 say goodbye Squirrel && killall Squirrel
 sudo rm -rf "/Library/Input Methods/Squirrel.app"
@@ -22,7 +24,8 @@ rm -rf ~/Library/Rime
 ```
 
 ## 文件说明
-* default.custom.yaml，设置备选词数量，定义输入方案等
+
+* default.custom.yaml，设置备选词数量，定义输入方案，Emacs 键盘绑定等
 * squirrel.custom.yaml，自定义皮肤
 * luna_pinyin_simp.custom.yaml，定义扩展词库，加载符号库，模糊拼音
 * easy_en.dict.yaml和easy_en.schema.yaml，在输入英文单词时进行候选提示
@@ -38,5 +41,7 @@ rm -rf ~/Library/Rime
 * luna_pinyin.poetry.dict.yaml，唐诗宋词、千家集、楚辞、诗经
 
 ## 参考
-* [Rime输入法—鼠须管(Squirrel)词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7)
+
+* [Rime 输入法—鼠须管 (Squirrel) 词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7)
 * [「鼠鬚管」的调教笔记](http://www.jianshu.com/p/ef2d9442fb0c/comments/486329)
+
