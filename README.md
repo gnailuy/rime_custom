@@ -7,6 +7,23 @@
 
 ## 使用说明
 
+### 安装鼠须管输入法
+
+```
+brew cask install squirrel
+```
+
+### 安装东风破基本配置集和 emoji 扩展
+
+```
+$ git clone git@github.com:rime/plum.git
+$ cd plum
+$ bash rime-install :preset
+$ bash rime-install emoji:customize:schema=luna_pinyin
+```
+
+### 同步自定义配置
+
 ```
 $ git clone git@github.com:gnailuy/rime_custom.git
 $ cd rim_custom
