@@ -35,9 +35,9 @@ $ rsync -avzu --progress --exclude="README.md" * ~/Library/Rime
 ## 卸载 Rime 输入法
 
 ```
-say goodbye Squirrel && killall Squirrel
-sudo rm -rf "/Library/Input Methods/Squirrel.app"
-rm -rf ~/Library/Rime
+$ say goodbye Squirrel && killall Squirrel
+$ sudo rm -rf "/Library/Input Methods/Squirrel.app"
+$ rm -rf ~/Library/Rime
 ```
 
 ## 文件说明
