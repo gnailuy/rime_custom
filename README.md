@@ -43,5 +43,5 @@ rm -rf ~/Library/Rime
 ## 参考
 
 * [Rime 输入法—鼠须管 (Squirrel) 词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7)
-* [「鼠鬚管」的调教笔记](http://www.jianshu.com/p/ef2d9442fb0c/comments/486329)
+* [「鼠鬚管」的调教笔记](http://scomper.me/post/gtd/-shu-xu-guan-de-diao-jiao-bi-ji)
 
