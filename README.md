@@ -2,7 +2,7 @@
 
 ## 设置说明
 * 基于 [simonqian](https://github.com/simonqian) 的 [sequirrel_custom](https://github.com/simonqian/sequirrel_custom) 修改
-* 使用明月拼音简体
+* 使用明月拼音，安装部署完成后，按 Ctrl+\` 选择朙月拼音简化字
 * 词库扩展
 
 ## 使用说明
