@@ -1,9 +1,11 @@
 # Rime Custom Configuration
 
 ## 设置说明
+
 * 基于 [simonqian](https://github.com/simonqian) 的 [sequirrel_custom](https://github.com/simonqian/sequirrel_custom) 修改
 * 使用明月拼音，安装部署完成后，按 Ctrl+\` 选择朙月拼音简化字
-* 词库扩展
+* 添加词库扩展
+* 配置 Dropbox 同步用户字典
 
 ## 使用说明
 
@@ -30,7 +32,16 @@ $ cd rim_custom
 $ rsync -avzu --progress --exclude="*.md" --exclude="*.sh" * ~/Library/Rime
 ```
 
-然后重新部署即可
+然后重新部署即可。
+
+### 同步用户字典
+
+修改 Library/Rime/installation.yaml 文件，配置如下两项，使用 Dropbox 同步用户字典。
+
+```
+installation_id: "Yuliang-MacBook-Pro"
+sync_dir: "/Users/gnailuy/Dropbox/Apps/RimeSync"
+```
 
 ## 卸载 Rime 输入法
 
