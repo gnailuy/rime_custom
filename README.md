@@ -34,9 +34,9 @@ $ rsync -avzu --progress --exclude="*.md" --exclude="*.sh" * ~/Library/Rime
 
 然后重新部署即可。
 
-### 同步用户字典
+### 同步配置和用户字典到 Dropbox
 
-修改 Library/Rime/installation.yaml 文件，配置如下两项，使用 Dropbox 同步用户字典。
+修改 Library/Rime/installation.yaml 文件，配置如下两项，然后可以在输入法菜单中同步用户设置。
 
 ```
 installation_id: "Yuliang-MacBook-Pro"
