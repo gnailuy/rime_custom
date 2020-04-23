@@ -5,7 +5,7 @@
 * 基于 [simonqian](https://github.com/simonqian) 的 [sequirrel_custom](https://github.com/simonqian/sequirrel_custom) 修改
 * 原样添加了 simonqian 的词库扩展
 * 使用明月拼音，对于简体用户，安装部署完成后，按 Ctrl+\` 选择朙月拼音简化字
-* 鼠须管使用 luna 主题，小狼毫使用 Google+ 主题
+* 鼠须管使用 Luna 主题，小狼毫使用 Google+ 主题
 * 配置使用 OneDrive 同步各个机器上的用户字典
 
 ## Mac 配置
@@ -35,7 +35,7 @@ $ rsync -avzu --progress --exclude="*.md" --exclude="*.sh" * ~/Library/Rime
 
 然后重新部署即可。
 
-### 同步配置和用户字典到
+### 同步配置和用户字典到 OneDrive
 
 修改 Library/Rime/installation.yaml 文件，配置如下两项，然后可以在输入法菜单中同步用户设置。
 
@@ -56,11 +56,11 @@ $ rm -rf ~/Library/Rime
 
 ### 安装小狼毫输入法
 
-到 https://rime.im/download/ 下载，默认安装即可，基本都配置好了
+到 https://rime.im/download/ 下载，默认安装即可，基本都配置好了。
 
 ### 同步自定义配置
 
-这几行命令里的路径是 Git Bash 自动转换的，也可以手动操作，把所有 Yaml 文件拷贝到 C:\Users\yuljin\AppData\Roaming\Rime 即可
+最后一条命令里的路径是 Git Bash 自动转换的，没有 Git Bash 也可以手动操作，把所有 Yaml 文件拷贝到 C:\Users\yuljin\AppData\Roaming\Rime 即可。
 
 ```
 $ git clone git@github.com:gnailuy/rime_custom.git
@@ -70,9 +70,9 @@ $ cp *.yaml /c/Users/yuljin/AppData/Roaming/Rime
 
 然后重新部署。
 
-### 同步配置和用户字典到 Dropbox
+### 同步配置和用户字典到 OneDrive
 
-修改 C:\Users\yuljin\AppData\Roaming\Rime\installation.yaml 文件，配置如下两项，然后可以在输入法菜单中同步用户设置。
+修改 `C:\Users\yuljin\AppData\Roaming\Rime\installation.yaml` 文件，配置如下两项，然后可以在输入法菜单中同步用户设置。
 
 ```
 installation_id: "Yuliang-Windows10-OfficePC"
