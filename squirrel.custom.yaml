@@ -27,14 +27,14 @@ patch:
   style/border_width: 0         # 窗口邊界寬度，大於圓角半徑才有效果
   style/color_scheme: luna      # 選擇配色方案
   # style/font_face: "儷黑 Pro" # 我喜歡的字體名稱
-  app_options:
-    com.apple.Terminal:         # 在 Terminal 等 APP 上默認輸出英文
-      ascii_mode: true
-      no_inline: true
-    com.googlecode.iterm2:
-      ascii_mode: true
-      no_inline: true
-    com.microsoft.VSCode:
-      ascii_mode: true
-      no_inline: true
+  # app_options:
+  #   com.apple.Terminal:       # 在 Terminal 等 APP 上默認輸出英文
+  #     ascii_mode: true
+  #     no_inline: true
+  #   com.googlecode.iterm2:
+  #     ascii_mode: true
+  #     no_inline: true
+  #   com.microsoft.VSCode:
+  #     ascii_mode: true
+  #     no_inline: true
 
