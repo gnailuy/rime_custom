@@ -83,7 +83,8 @@ sync_dir: 'C:\Users\yuljin\OneDrive\App\RimeSync'
 
 按照[官方文档](https://github.com/rime/home/wiki/RimeWithIBus)配合 iBus 安装，几乎和 Mac 配置差不多，只是配置文件跑到了 `.config/ibus/rime` 这里。
 
-另外比较尴尬的一件事是，OneDrive 没有 Linux 客户端，于是用户字典同步成了个问题。
+OneDrive 没有官方的 Linux 客户端，我安装了这个 [OneDrive Client for Linux](https://abraunegg.github.io/)，直接跑在 Docker 里，很方便。
+有了 OneDrive 支持，我其他机器上面的词库就同步过来了。配置的方法和上面一模一样，只是 `sync_dir` 变成了 Linux 上 OneDrive 里的 `RimeSync` 路径。
 
 ## 用户字典同步说明
 
