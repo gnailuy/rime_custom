@@ -79,6 +79,12 @@ installation_id: "Yuliang-Windows10-OfficePC"
 sync_dir: 'C:\Users\yuljin\OneDrive\App\RimeSync'
 ```
 
+## Linux 配置
+
+按照[官方文档](https://github.com/rime/home/wiki/RimeWithIBus)配合 iBus 安装，几乎和 Mac 配置差不多，只是配置文件跑到了 `.config/ibus/rime` 这里。
+
+另外比较尴尬的一件事是，OneDrive 没有 Linux 客户端，于是用户字典同步成了个问题。
+
 ## 用户字典同步说明
 
 应用上面配置之后，Rime 的配置和用户数据就会出现在 OneDrive 的 App/RimeSync 目录里，放在以 installation_id 命名的子目录下面。
