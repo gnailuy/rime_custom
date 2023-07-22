@@ -29,7 +29,7 @@ $ bash rime-install emoji:customize:schema=luna_pinyin
 
 ```
 $ git clone git@github.com:gnailuy/rime_custom.git
-$ cd rim_custom
+$ cd rime_custom
 $ rsync -avzu --progress --exclude="*.md" --exclude="*.sh" * ~/Library/Rime
 ```
 
